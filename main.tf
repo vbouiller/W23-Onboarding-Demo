@@ -24,5 +24,7 @@ resource "aws_instance" "ubuntu" {
 
   tags = {
     Name = var.instance_name
+    Owner = "DevOps Team 2"
+    TTL = 5
   }
 }
