@@ -1,10 +1,10 @@
 terraform {
 /*
   cloud {
-    organization = "organization-name"
+    organization = "vbouiller-org"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = ""
     }
   }
 */
