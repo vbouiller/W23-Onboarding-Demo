@@ -1,14 +1,5 @@
 terraform {
 
-  cloud {
-    organization = "vbouiller-org"
-
-    workspaces {
-      name = "webapp-staging-us-west"
-    }
-  }
-
-
   required_providers {
     aws = {
       source  = "hashicorp/aws"
