@@ -1,13 +1,13 @@
 terraform {
-/*
+
   cloud {
     organization = "vbouiller-org"
 
     workspaces {
-      name = ""
+      name = "webapp-staging-us-west"
     }
   }
-*/
+
 
   required_providers {
     aws = {
